@@ -69,20 +69,23 @@ def ex10():
     if a in "python" or 'dragon':
         print(True)
 
-def ex11():
+def ex13():
+    text = input(" Enter your name: ")
+    print(float(len(text)))
+def ex14 ():
     a = eval(input("Nhap so tuoi: "))
     if a % 2 == 0:
         print("Tuoi so chan")
     else:
         print("Tuoi so le")
 
-def ex12():
+def ex2():
     a = int(input("Nhap 1 so bat ky"))
     if a % 7 ==0:
         print("So chia het cho 7")
     else:
         print("Not")
-def ex13():
+def ex3():
     a = int(input("Nhap 1 so bat ky"))
     b = a % 10
     if b % 3 == 0:
@@ -90,8 +93,16 @@ def ex13():
     else:
         print("Ko")
 
-
-def ex14():
+def ex15():
+    text = eval(input("Enter your number: "))
+    prices = eval(input("Enter your prices: "))
+    pay = float(text) * float(prices)
+    print(pay)
+def ex16():
+    years = eval(input("Enter your years: "))
+    remain = 100 - years
+    print(f"Second you can live is {remain *12*30*24*60*60}")
+def ex17():
     num = random.randint(1, 9)  # Random number between 1 and 9
     print(num)
     guess = int(input("Doan 1 so bat ky 1-9: "))
@@ -100,12 +111,6 @@ def ex14():
         guess = int(input("Doan 1 so bat ky 1-9: "))  # Prompt for new guess
     print("You are genius!")  # Correct guess
 
-def ex15():
-    for i in range(11):
-        print(i)
-
-def ex16():
-    a = int(input("Nhap so: "))
-    
+       
 if __name__ == '__main__':
-    ex14()
+    ex16()
