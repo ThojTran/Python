@@ -79,19 +79,6 @@ def ex14 ():
     else:
         print("Tuoi so le")
 
-def ex2():
-    a = int(input("Nhap 1 so bat ky"))
-    if a % 7 ==0:
-        print("So chia het cho 7")
-    else:
-        print("Not")
-def ex3():
-    a = int(input("Nhap 1 so bat ky"))
-    b = a % 10
-    if b % 3 == 0:
-        print("Chia het cho 3")
-    else:
-        print("Ko")
 
 def ex15():
     text = eval(input("Enter your number: "))
